@@ -29,3 +29,27 @@ li a {
 ul li {
     font-size: 40px;
 }
+
+
+  
+  .box {
+    width: 100%;
+    min-height: 100dvh;
+    background: #fff;
+  }
+  
+  .box {
+    width: 100%;
+    padding: 20px;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+  }
+
+  .box img {
+    width: 100%;
+  }
